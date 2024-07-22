@@ -24,19 +24,19 @@ const Inicio = () => {
       <div className="col-6">
       <div className="col">
           <label htmlFor="genero" className="form-label">
-            Genero{" "}
+            Genero
           </label>
           <input type="text" id="genero" className="form-control" />
         </div>
         <div className="col">
           <label htmlFor="juegos" className="form-label">
-            Juegos{" "}
+            Juegos
           </label>
           <input type="text" id="juegos" className="form-control" />
         </div>
         <div className="col">
           <label htmlFor="plataforma" className="form-label">
-            Plataforma{""}
+            Plataforma
           </label>
           <input type="text" id="plataforma" className="form-control" />
         </div>
