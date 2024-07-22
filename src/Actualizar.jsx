@@ -14,7 +14,7 @@ const Actualizar = ({vjuegos}) => {
           <tbody>
               {
                 vjuegos.map(v => (
-                  <tr>
+                  <tr key={v.id}> 
                     <td>{v.id}</td>
                     <td>{v.juegos}</td>
                     <td>{v.plataforma}</td>
